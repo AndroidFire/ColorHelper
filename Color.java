@@ -1,3 +1,6 @@
+package al.androidfire.android.color;
+
+public class Color {
 
     public int COLOR_RED = parseColor("F44336");
     public int COLOR_PINK = parseColor("E91E63");
@@ -152,3 +155,7 @@
         return (V / 255.f);
     }
 
+
+
+
+}
