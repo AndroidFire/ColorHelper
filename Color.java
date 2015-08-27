@@ -1,6 +1,18 @@
+/*
+ * Copyright (C) 2015 AndroidFire
+ * https://github.com/AndroidFire/ColorHelper/blob/master/LICENSE
+ */
+
 package al.androidfire.android.color;
 
-public class Color {
+
+import android.graphics.Color;
+
+
+/**
+ * Alternative class of Color with some extra features added
+ */
+public class Color extends android.graphics.Color {
 
     public int COLOR_RED = parseColor("F44336");
     public int COLOR_PINK = parseColor("E91E63");
@@ -17,6 +29,7 @@ public class Color {
     public int COLOR_LIGHT_GREEN = parseColor("8BC34A");
     public int COLOR_LIGHT_BLUE = parseColor("03A9F4");
     public int COLOR_DEEP_PURPLE = parseColor("673AB7");
+
 
 
     public static String convertToARGB(int color) {
